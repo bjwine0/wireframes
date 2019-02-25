@@ -106,11 +106,18 @@ main>img {
 /* *********** Section *******************/
 
 section {
+  margin-right: 330px;
+  text-align: center;
+  height: 430px;
+}
+
+section>img {
+  text-align: center;
   display: inline;
 }
-section~h2, p, button {
-  text-align: left;
-  float: inline-end;
+
+section h2 {
+  float: right;
   margin: ;
   border: ;
   padding: ;
@@ -119,30 +126,24 @@ section~h2, p, button {
 
 }
 
-img {
+section p {
+  position: relative;
+  left: 600px;
+  bottom: 200px;
   
-}
-
-h2 {
+  height: 50px;
+  border: none;
+  overflow: scroll;
   
-  margin: ;
-  border: ;
-  padding: ;
-  width: ;
-  height: ;
 
 }
 
-p {
-  margin: ;
-  border: ;
-  padding: ;
-  width: auto;
-  height: ;
-
-}
 
 button {
+  float: right;
+  position: relative;
+  bottom: 75px;
+  right: 500px;
   margin: ;
   border: ;
   padding: ;
@@ -156,8 +157,7 @@ button {
 
 footer {
   background-color: #323238;
-  /* margin-left: 850px;
-  margin-right: 750px; */
+  
   border: ;
   padding: ;
   width: auto;
